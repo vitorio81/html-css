@@ -1,0 +1,105 @@
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+(Quebra de texto) 
+    br
+EX. 
+<p> Se precisar quebrar o texto em algum lugar tipo esse <br> basta colocar o br </p>
+
+
+Se precisar quebrar o texto em algum lugar tipo esse
+basta colocar o br
+
+&lt = <
+&gt = >
+
+comentario = <!--  -->
+emoji =  &#x em seguida o código do emoji no site emojipedia
+
+
+				REDIMENSIONAMENTO DE IMAGEM 
+                
+
+JPEG consegue compactar a imagem para usar menos espaço. (imagens maiores, e mais compactadas) 
+
+PNG foi criado para substituir o formato gif, ou seja o png permite transparência.(imagens com mais qualidade nas com animação e fundo transparente)
+
+Para carregar uma imagem no HTML usa-se img com src:origem e o alt:texto alternativo da imagem 
+Para adicionar uma imagem externa é só copiar o endereço da imagem, e colar no src.
+
+
+Sites para pegar ou criara icones:
+Para baixar: iconarchive
+para criara: favicon.cc , favicon.io
+
+Para colocar no seu código usa-se o comando: link favicon 
+na opção href clica control espaço e seleciona o ico
+
+
+Para orgazinzar o esdpa;o entre as letras usa-se o comando (code)
+
+Para rgazizar a escreita e a posigcao das palavras usa-se (pre)
+ 
+citacao (q)
+citacao com deslocamento(blackquote)
+abreviacao (abbr)
+texto invertido(bdo-r)
+
+LISTAS DE OL E UL 
+ 
+Para criar uym alista ordenada usa-se ol e dentro de ol usa-se li 
+EXEMPLO: 
+    <ol>
+       <li>acordar</li>
+       <li>tomar café</li>               DESSE MODO A LISTA ESTÁ EM, ORDEM NUMERAL
+       <li>Escovar os dentes</li> 
+    </ol>
+
+
+   <ol type= >
+       <li>acordar</li>
+       <li>tomar café</li>                DESSA FORMA VOCÊ CONSEGUE ESCOLHER O TIPO DA LISTA
+       <li>Escovar os dentes</li> 
+    </ol>
+
+lu = listas não ordenadas, ou seja, ao invés de números ou letetras, aparecer símbolos 
+
+EXEMPLO
+    <ul>
+        <li>Pão</li>
+        <li>café</li>            DESSE MODO É COM UM .
+        <li>Leite</li>
+        <Li>Arroz</Li>
+    </ul>
+
+   <ul type= >
+        <li>Pão</li>
+        <li>café</li>         DESSE MODO VOCÊ  ESCOLHE O SÍMBOLO
+        <li>Leite</li>
+        <Li>Arroz</Li>
+    </ul>
+
+
+LINKS 
+Para licar uma pate do seu texto a um site externo usa-se a teg (a) que altomaticamente surgirá um href onde nele será necessário cvolocar o link do site 
+OBS: PARA QUE AO CLICAR NO LINBK SEJA ABERTA UMA OUTRA JANELA E NÃO SEJA SOBREPOSTO NO SEU SITE, É NECESSÁRIO ALGUMAS ALTERAÇÕES! 
+EX: 
+	<p>Você pode usar meu 
+	<a href="https:/gustavoguanabara.github.io" target="_blank" rel="external">repositório 	público no GitHub</a>
+	</p>
+	Quando for um link patrocinado usar sempre rel= "nofollow"
+para retornar a uma página que esteja dentro de uma pasta:
+
+p>Voltar para a <a href="../index.html">primeira página</a></p>
+
+
+(iana.org/assignments/meditypes)
+
+LINK PARA DAWLOAD
+
+ 	    <li><a href="livro/10 - Ligações em toda parte.pdf" 
+             type="application/pdf">
+             Baixar o livro em PDF</a></li>
+            <li><a href="livro/meulivro.zip.zip" 
+	     type="application/zip">
+	     Livro compactado em zip </a></li>
