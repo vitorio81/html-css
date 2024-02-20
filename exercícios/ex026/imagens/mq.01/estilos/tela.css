@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(159, 172, 185);
+}
+ header h1 {
+    text-align: center;
+ }
+
+ menu ul {
+    list-style-type: none;
+    background-color: lightslategray;
+ }
+
+ menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(71, 82, 93);
+    color: white;
+ }
+
+ 
+menu li:hover {
+    background-color: rgb(159, 172, 185);
+}
+
+ main {
+    width: 400px;
+    display: block;
+    margin: auto;
+ }
