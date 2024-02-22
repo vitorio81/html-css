@@ -19,7 +19,22 @@ header > h1 {
     text-align: center;
 }
  menu {
-    display: block;
+    display: none;
+ }
+
+ span#borguer{
+   background-color: rgb(48, 43, 43);
+   color: white;
+   display: block;
+   text-align: center;
+   padding: 5px;
+  
+ }
+
+ span#borguer:hover{
+   background-color: white;
+   color: black;
+   cursor: pointer;
  }
 
  menu > ul {
