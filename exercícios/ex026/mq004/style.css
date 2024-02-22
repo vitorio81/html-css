@@ -15,8 +15,9 @@ header {
 }
 
 header > h1 {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    text-shadow: 1px 1px 0px white;
 }
  menu {
     display: none;
